@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/LMIS/!svn/ver/2861/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout
+END
+activity_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMIS/!svn/ver/2765/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_menu.xml
+END
+title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMIS/!svn/ver/2541/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/title.xml
+END
+item_menu_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/LMIS/!svn/ver/2489/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/item_menu_gridview.xml
+END
+activity_childmenu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/LMIS/!svn/ver/2819/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_childmenu.xml
+END
+activity_huochejiexie.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/LMIS/!svn/ver/2864/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_huochejiexie.xml
+END
+activity_showpic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/LMIS/!svn/ver/2611/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_showpic.xml
+END
+common_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/LMIS/!svn/ver/2782/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/common_title.xml
+END
+item_showpic_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/LMIS/!svn/ver/2761/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/item_showpic_gridview.xml
+END
+activity_xunshi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/LMIS/!svn/ver/2489/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_xunshi.xml
+END
+dialog_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/LMIS/!svn/ver/2489/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/dialog_loading.xml
+END
+activity_takepic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/LMIS/!svn/ver/2494/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_takepic.xml
+END
+activity_xunduo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/LMIS/!svn/ver/2781/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_xunduo.xml
+END
+activity_jiexie_pidai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/LMIS/!svn/ver/2904/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_jiexie_pidai.xml
+END
+dialog_takepictips.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/LMIS/!svn/ver/2494/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/dialog_takepictips.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/LMIS/!svn/ver/2819/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_main.xml
+END
+activity_chu_jieche.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/LMIS/!svn/ver/2852/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_chu_jieche.xml
+END
+activity_chuanyun_jiexie_yancang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/LMIS/!svn/ver/2898/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_chuanyun_jiexie_yancang.xml
+END
+item_jieche.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/LMIS/!svn/ver/2756/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/item_jieche.xml
+END
+activity_chuanyun.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/LMIS/!svn/ver/2763/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_chuanyun.xml
+END
+fache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/LMIS/!svn/ver/2819/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/fache.xml
+END
+xlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/LMIS/!svn/ver/2756/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/xlistview_header.xml
+END
+activity_select_duowei.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/LMIS/!svn/ver/2665/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_select_duowei.xml
+END
+activity_chuanyun_fayun_yancang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/LMIS/!svn/ver/2898/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_chuanyun_fayun_yancang.xml
+END
+common_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/LMIS/!svn/ver/2920/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/common_top.xml
+END
+activity_fache_and_pidai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/LMIS/!svn/ver/2819/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_fache_and_pidai.xml
+END
+xlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/LMIS/!svn/ver/2756/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/xlistview_footer.xml
+END
+test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/LMIS/!svn/ver/2819/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/test.xml
+END
+activity_jiexie_fache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/LMIS/!svn/ver/2861/05%20%E5%8A%9F%E8%83%BD%E5%BC%80%E5%8F%91/%E5%B7%A5%E7%A8%8B/wuljg_app/wuljg/res/layout/activity_jiexie_fache.xml
+END

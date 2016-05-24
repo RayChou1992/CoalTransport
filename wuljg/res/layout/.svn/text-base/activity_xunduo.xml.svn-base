@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F5F5F5">
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xunduo_wendu" />
+
+        <EditText
+            android:id="@+id/et_xunduo_wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="温度" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/xunduo_shidu" />
+
+        <EditText
+            android:id="@+id/et_xunduo_shidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="湿度" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/iv_xunduo_camera1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/iv_xunduo_meiduo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/camera2" />
+
+        <ImageView
+            android:id="@+id/iv_xunduo_camera2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/iv_xunduo_camera1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/iv_xunduo_camera4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/iv_xunduo_camera3"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/iv_xunduo_meiduo"
+            android:background="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/iv_xunduo_camera5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/iv_xunduo_meiduo"
+            android:layout_alignLeft="@+id/iv_xunduo_camera4"
+            android:background="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/iv_xunduo_camera6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/iv_xunduo_camera4"
+            android:layout_alignTop="@+id/iv_xunduo_camera1"
+            android:background="@drawable/camera"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_xunduo_meiduo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/meiduo_pic" />
+
+        <ImageView
+            android:id="@+id/iv_xunduo_camera3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/iv_xunduo_camera2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="54dp"
+            android:background="@drawable/camera" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/xunduo_bottom_background" 
+            android:layout_below="@+id/iv_xunduo_camera1"
+            android:layout_marginTop="10dp"
+            android:gravity="right|bottom">
+
+            <Button
+                android:id="@+id/bt_xunduo_complete"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_finish" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+package com.zhiren.wuljg.utils;
+
+import android.os.Environment;
+
+/**
+ * 常量
+ */
+public class Constant {
+
+	/** 网络访问状态标识 **/
+	public final static int ERROR = 0;
+	public final static int SUCCESS = 1;
+	public final static int SUCCESS_CODE = 2;
+	public final static int EXCEPTION = -1;
+
+	public final static String APPKEY = "AndroidAppKey";
+	public final static String API_VERSION = "1.0";// 接口版本
+	public final static String VERSION_NAME = "v1.0";// app版本名称
+	// 测试环境
+	public final static String SECURITYCODE = "CE718A2D-0A92-2369-7C57-46CCEBB02989";// 测试md5密码
+<<<<<<< .mine
+//	public final static String BASE_URL = "http://10.115.25.36:8888/wuljg";// 测试
+//	public final static String BASE_URL_PIC = "http://10.115.25.36:8888";// 测试
+	public final static String BASE_URL = "http://10.115.25.120/wuljg";// 测试
+=======
+//	public final static String BASE_URL = "http://10.115.25.120/wuljg";// 测试
+	public final static String BASE_URL = "http://10.115.25.198:8080/wuljg";// 测试
+>>>>>>> .r2595
+	public final static String BASE_URL_PIC = "http://10.115.25.120";// 测试
+
+	/** 登录 **/
+	public final static String URL_LOGIN = BASE_URL + "/web/app/login";
+
+	/** 菜单 **/
+	public final static String URL_MENU = BASE_URL + "/web/app/getMenu";
+
+	/** 获取定位信息 **/
+	public final static String URL_LOCATION = BASE_URL
+			+ "/web/app/getLocationData";
+
+	/** 获取垛位信息 **/
+	public final static String URL_DUOWEI_DATA = BASE_URL
+			+ "/web/app/getDuoWeiData";
+
+
+	/** 上传图片及信息 **/
+	public final static String URL_UPLOAD = BASE_URL + "/web/app/upload";
+
+	/** 获取当前巡视批次或者创建新的巡视批次 **/
+	public final static String URL_CREATE_OR_GET_XUNDUO = BASE_URL
+			+ "/web/app/getBathNumber";
+
+	/** 获取图片地址 **/
+	public final static String URL_GET_IMG_URI = BASE_URL
+			+ "/web/app/getPicture";
+	public final static String URL_FINISH_XUNDUO = BASE_URL
+			+ "/web/app/alterXunduo";
+
+	/*** 图片根路径 sd卡/JKD/ */
+	public final static String BASE_PIC_URI = Environment
+			.getExternalStorageDirectory() + "/zhiren/";
+
+}

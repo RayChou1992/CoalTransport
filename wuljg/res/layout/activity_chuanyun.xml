@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/common_title" />
+
+    <ImageView
+        android:id="@+id/iv_chuanyun_ship_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ship_shouye" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="船名："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chuanyun_shipName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恩辉"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发运港："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chuanyun_fayungang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大连港"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="目的港："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chuanyun_mudigang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天津港"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="货主："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chuanyun_huozhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阳煤集团"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="品名："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chuanyun_pinm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="精煤"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数量:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_chuanyun_shuling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20000吨"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_chuanyun_yancang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验舱"
+            android:textSize="20sp" 
+            android:background="@drawable/button_normal"/>
+
+        <Button
+            android:id="@+id/bt_chuanyun_jigang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="集港"
+            android:textSize="20sp" 
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_normal"/>
+    </LinearLayout>
+
+</LinearLayout>

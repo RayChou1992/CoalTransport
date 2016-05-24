@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tv_huoche_yancang_stepone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/step_background_pre"
+            android:text="验车" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_right" />
+
+        <Button
+            android:id="@+id/tv_huoche_yancang_steptwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/step_background"
+            android:text="拍车号"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_right" />
+
+        <Button
+            android:id="@+id/tv_huoche_yancang_stepthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/step_background"
+            android:text="厢底检查"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车号："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_train_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_huoche_yanche_stepone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_huocjx_shouchehao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="首车号" />
+
+            <EditText
+                android:id="@+id/et_huocjx_weichehao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="尾车号" />
+
+            <EditText
+                android:id="@+id/et_huocjx_jieshu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="总节数" />
+
+            <EditText
+                android:id="@+id/et_huocjx_zhongliang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="总数量" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_huoche_dayundan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/camera" />
+
+            <ImageView
+                android:id="@+id/iv_huoche_xiaoyundan"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/camera" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_huoche_yanche_steptwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_huoche_chexiang_top"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/camera" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/train" />
+
+        <ImageView
+            android:id="@+id/iv_huoche_chexiang_chehao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/camera" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_huoche_yanche_stepthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" 
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_huoche_chexiang_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/camera" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/train" />
+
+        <ImageView
+            android:id="@+id/iv_huoche_chexiang_right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/camera" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/xunduo_bottom_background"
+        android:gravity="bottom|right" >
+
+        <Button
+            android:id="@+id/bt_huoche_finish"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_finish" />
+    </LinearLayout>
+
+</LinearLayout>
